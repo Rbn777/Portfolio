@@ -18,6 +18,16 @@ export function Project1() {
           School project of a static website representing Manny building in Nantes, FRANCE.
           <br />
           Technologies used : HTML5, CSS3.
+          <br />
+          <br />
+          <a 
+            href="https://manny-wcstraining.netlify.app/" 
+            alt="Manny website"  
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+              Link to project
+          </a>
         </p>
         </div>
     </div>
@@ -36,6 +46,16 @@ export function Project2() {
           School project of a React quizz application. 
           <br />
           Technologies used : React with bootstrap, axios, sweetalert libraries and Open Trivia Database API.
+          <br />
+          <br />
+          <a 
+            href="https://squizz.netlify.app//" 
+            alt="Squizz app"  
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+              Link to project
+          </a>
         </p>
         </div>
     </div>
