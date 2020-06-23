@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Josefin+Sans:ital,wght@0,100;1,700&display=swap');
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+a:hover {
+  color: #d73548;
+}
+
+h1 {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h2 {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.Hi {
+  font-size: 8rem;
+}
+
+.SubTitle {
+  font-size: 2.5rem;
+}
+
+.RedText {
+  color: #d73548;
+}
+
+.MainText {
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-style: normal;
+}

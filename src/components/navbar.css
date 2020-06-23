@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding-left: 50px;
+}
+
+.LastLi {
+  padding-right: 80px;
+}
+
+.Logo {
+  padding-left: 80px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.7rem;
+}
+
+.OFromLogo {
+  color: #d73548;
+}

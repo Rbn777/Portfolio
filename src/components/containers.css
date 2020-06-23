@@ -1,0 +1,78 @@
+.Background {
+  background-color: #393e46;
+  min-height: 100vh;
+}
+
+.FakeNavbar {
+  height: 10vh;
+}
+
+.TextArea {
+  padding: 50px 50px 0px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SubTitleArea {
+  clip-path: polygon(0 0, 90% 0, 75% 100%, 0% 100%);
+  background: #d73548;
+  width: 300px;
+  height: 35px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.NavbarDiv {
+  background-color: #222831;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.ClickedButton {
+  border-radius: 10px;
+  background-color: #393e46;
+  border: 2px solid #d73548;
+  padding: 15px 15px;
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  color: #d73548;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.UnclickedButton {
+  border-radius: 10px;
+  background-color: #393e46;
+  border: 2px solid #222831;
+  padding: 15px 15px;
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.ButtonArea {
+  padding: 50px 50px 0px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProjectArea {
+  padding: 50px 50px 0px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
