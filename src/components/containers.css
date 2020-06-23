@@ -35,6 +35,14 @@
   z-index: 100;
 }
 
+.ButtonArea {
+  padding: 50px 50px 0px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .ClickedButton {
   border-radius: 10px;
   background-color: #393e46;
@@ -61,18 +69,36 @@
   font-size: 1rem;
 }
 
-.ButtonArea {
+.ProjectArea {
   padding: 50px 50px 0px 50px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.ProjectArea {
-  padding: 50px 50px 0px 50px;
+.Project {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #222831;
   display: flex;
   flex-direction: row;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.ProjectImg {
+  width: 40%;
+  display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.ProjectText {
+  width: 60%;
+  padding-left: 10px;
 }

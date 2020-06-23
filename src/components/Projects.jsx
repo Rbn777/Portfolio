@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import { Project1, Project2 } from './ProjectCmpnt.jsx';
 import './containers.css';
 import './texts.css';
 
@@ -18,7 +19,8 @@ function Projects() {
         <button className="UnclickedButton"><Link to="/projects/graphic-design">Graphic Design</Link></button>
       </div>
       <div className="ProjectArea">
-        
+        <Project1 />
+        <Project2 />
       </div>
     </div>
   );
