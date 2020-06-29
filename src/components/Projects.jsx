@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Project1, Project2 } from './ProjectCmpnt.jsx';
+import { Project1, Project2, Project3 } from './ProjectCmpnt.jsx';
 import './containers.css';
 import './texts.css';
 
@@ -21,6 +21,7 @@ function Projects() {
       <div className="ProjectArea">
         <Project1 />
         <Project2 />
+        <Project3 />
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ export function Project1() {
       </div>
       <div className="ProjectText">
         <p className="ProjectTitle">Manny Building Website</p>
-        <p className="MainText">
+        <p className="MainTextProject">
           School project of a static website representing Manny building in Nantes, FRANCE.
           <br />
           Technologies used : HTML5, CSS3.
@@ -26,7 +26,7 @@ export function Project1() {
             target="_blank" 
             rel="noopener noreferrer"
             >
-              Link to project
+              Link to project demo
           </a>
         </p>
         </div>
@@ -42,10 +42,10 @@ export function Project2() {
       </div>
       <div className="ProjectText">
         <p className="ProjectTitle">Squizz App</p>
-        <p className="MainText">
+        <p className="MainTextProject">
           School project of a React quizz application. 
           <br />
-          Technologies used : React with bootstrap, axios, sweetalert libraries and Open Trivia Database API.
+          Technologies used : React (with react-router, bootstrap, axios, sweetalert libraries) and Open Trivia Database API.
           <br />
           <br />
           <a 
@@ -54,7 +54,35 @@ export function Project2() {
             target="_blank" 
             rel="noopener noreferrer"
             >
-              Link to project
+              Link to project demo
+          </a>
+        </p>
+        </div>
+    </div>
+  );
+}
+
+export function Project3() {
+  return (
+    <div className="Project">
+      <div className="ProjectImg">
+        <img src={project2Img} alt="Doctolib Hackathon" />
+      </div>
+      <div className="ProjectText">
+        <p className="ProjectTitle">Doctolib Hackathon</p>
+        <p className="MainTextProject">
+          School project in partnership with Doctolib of a healthcare application. 
+          <br />
+          Technologies used : React (with react-router, redux, axios, react-notifications libraries), ExpressJS back, Sql database.
+          <br />
+          <br />
+          <a 
+            href="https://squizz.netlify.app//" 
+            alt="Squizz app"  
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+              Link to project demo availiable soon
           </a>
         </p>
         </div>

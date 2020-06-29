@@ -3,14 +3,12 @@
   min-height: 100vh;
 }
 
-.FakeNavbar {
-  height: 10vh;
+.TextArea {
+  padding: 50px 50px 100px 50px;
 }
 
-.TextArea {
+.HomeTitleArea {
   padding: 50px 50px 0px 50px;
-  display: flex;
-  flex-direction: column;
 }
 
 .SubTitleArea {
@@ -26,13 +24,17 @@
 
 .NavbarDiv {
   background-color: #222831;
-  height: 10vh;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   width: 100%;
   z-index: 100;
+}
+
+.FakeNavbar {
+  height: 70px;
 }
 
 .ButtonArea {
@@ -73,12 +75,12 @@
   padding: 50px 50px 0px 50px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .Project {
   width: 45%;
-  min-height: 200px;
   border-radius: 10px;
   border: 2px solid #222831;
   display: flex;
@@ -103,17 +105,25 @@ img {
   padding-left: 10px;
 }
 
-@media screen and (max-width: 950px) {
-  .ProjectArea {
-    flex-direction: column;
-  }
+.ContactsDiv {
+  display: flex;
+  justify-content: center;
+}
 
+.ContactsLogoDiv {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 991px) {
   .Project {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
   .Project {
     flex-direction: column;
   }
