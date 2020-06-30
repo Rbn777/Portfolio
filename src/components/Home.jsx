@@ -33,12 +33,13 @@ function Home() {
         I got a job as a graphic designer at <span className="BoldText">Jacob Delafon Paris</span>, where I stayed for almost 2 years.
         In March 2020 I decided it was time for a change. I have been able to discover HTML and CSS and develop an interest for it during my graphic 
         design studies, I decided to start <span className="RedBackground">a professional retraining</span> at <span className="BoldText">Wild Code School Nantes</span> to add web programming to my set of technical skills.
-        I quickly started to love what i was taught, from <span className="RedBackground">Javascript to sql, especially ReactJS.</span>
-        Because the best way to learn is to practice, during this time, I have been able to work on several projects like a static <span className="BoldText">HTML/CSS website or
+        I quickly started to love what i was taught, from <span className="RedBackground">Javascript to sql, 
+        especially ReactJS</span>. Because the best way to learn is to practice, during this time, I have been able to 
+        work on several projects like a static <span className="BoldText">HTML/CSS website or
         a dynamic full-stack webapp for Doctolib company and more ...</span>
         <br />
         <br />
-        I’m enthusiastic, super curious, committed, and I also a adapt really fast!
+        I’m enthusiastic, super curious, committed, and I also adapt really fast!
         <br />
         <br />
         My current stack of <span className="RedBackground">languages/technologies :</span>

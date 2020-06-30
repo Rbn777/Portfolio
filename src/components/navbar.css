@@ -34,7 +34,7 @@ li {
   display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 713px) {
   .bm-burger-button {
     display: block;
     position: fixed;

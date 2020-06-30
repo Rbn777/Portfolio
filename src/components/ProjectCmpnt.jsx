@@ -5,6 +5,7 @@ import './texts.css';
 
 import project1Img from '../medias/Manny-projectimg.jpg';
 import project2Img from '../medias/Squizz-appimg.jpg';
+import project3Img from '../medias/Doctolib-hackathon.jpg';
 
 export function Project1() {
   return (
@@ -66,7 +67,7 @@ export function Project3() {
   return (
     <div className="Project">
       <div className="ProjectImg">
-        <img src={project2Img} alt="Doctolib Hackathon" />
+        <img src={project3Img} alt="Doctolib Hackathon" />
       </div>
       <div className="ProjectText">
         <p className="ProjectTitle">Doctolib Hackathon</p>
@@ -76,14 +77,7 @@ export function Project3() {
           Technologies used : React (with react-router, redux, axios, react-notifications libraries), ExpressJS back, Sql database.
           <br />
           <br />
-          <a 
-            href="https://squizz.netlify.app//" 
-            alt="Squizz app"  
-            target="_blank" 
-            rel="noopener noreferrer"
-            >
-              Link to project demo availiable soon
-          </a>
+          <span className="BoldText">Link to project demo availiable soon</span>
         </p>
         </div>
     </div>
