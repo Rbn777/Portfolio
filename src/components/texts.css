@@ -48,6 +48,7 @@ h2 {
   word-break: break-word;
   text-align: center;
   color: white;
+  line-height: 1.7rem;
 }
 
 .MainTextBold {
@@ -81,4 +82,9 @@ h2 {
 
 .RedBackground {
   background-color: #d73548;
+}
+
+.BoldText {
+  font-weight: 700;
+  font-style: italic;
 }
