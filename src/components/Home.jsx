@@ -1,6 +1,6 @@
 import React from 'react';
 
-import cv from "../medias/dorionRobinCV.pdf";
+import cv from "../medias/Robin_DORION_resume.pdf";
 
 import './containers.css';
 import './texts.css';
