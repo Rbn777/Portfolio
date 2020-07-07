@@ -50,7 +50,7 @@ export function Project2() {
           <br />
           <br />
           <a 
-            href="https://squizz.netlify.app//" 
+            href="https://squizz.netlify.app" 
             alt="Squizz app"  
             target="_blank" 
             rel="noopener noreferrer"
@@ -67,7 +67,7 @@ export function Project3() {
   return (
     <div className="Project">
       <div className="ProjectImg">
-        <img src={project3Img} alt="Doctolib Hackathon" />
+        <img src={project3Img} alt="Doctolib Hackathon"/>
       </div>
       <div className="ProjectText">
         <p className="ProjectTitle">Doctolib Hackathon</p>
