@@ -77,7 +77,14 @@ export function Project3() {
           Technologies used : React (with react-router, redux, axios, react-notifications libraries), ExpressJS back, Sql database.
           <br />
           <br />
-          <span className="BoldText">Link to project demo availiable soon</span>
+          <a 
+            href="https://hackathon-doctolib.netlify.app" 
+            alt="Doctolib Hackathon"  
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+              Link to project demo
+          </a>
         </p>
         </div>
     </div>
